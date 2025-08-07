@@ -1,8 +1,23 @@
 import os
 import hashlib
 import questionary
+import time
 from collections import defaultdict
 from tqdm import tqdm
+from pyfiglet import Figlet
+
+def type_out(text, delay=0.005):
+    for char in text:
+        print(char, end='', flush=True)
+        time.sleep(delay)
+    print()
+
+
+fig = Figlet(font='slant')  
+ascii_banner = fig.renderText('Dup Cleaner')
+type_out(ascii_banner)
+type_out('By Het\n')
+print('-' * 60)
 
 def calculate_file_hash(file_path):
 
