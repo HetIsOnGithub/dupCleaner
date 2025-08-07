@@ -1,2 +1,19 @@
-# dupCleaner
-Duplicate File Cleaner is a powerful and easy to use Python utility designed to scan and detect duplicate files on your system using efficient hash comparison. Ideal for freeing up storage space and organizing your file system.
+___________________________________________
+-> Duplicate Cleaner 🧹
+___________________________________________
+
+A Python tool to detect and remove duplicate files using hash comparison.
+
+___________________________________________
+-> Features
+___________________________________________
+
+- Full or specific folder scan
+- Hash-based duplicate detection
+- CLI with progress bar
+- EXE version for Windows (no Python needed)
+
+___________________________________________
+-> How to Use
+___________________________________________
+python dupCleaner.py
